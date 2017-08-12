@@ -1,0 +1,25 @@
+uuid: d9e782d0-6058-44ed-a1f5-f3a2df6bdd65
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.audio
+    - field.field.comment.audio.comment_body
+  module:
+    - text
+id: comment.audio.default
+targetEntityType: comment
+bundle: audio
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,18 @@
+uuid: 7e8b43b0-76e9-40fb-807c-814e358feb56
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'description with table'
+type: description_with_table
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

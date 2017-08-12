@@ -1,0 +1,8 @@
+uuid: 6ff89130-0655-4b61-86a1-03c4743c19ec
+langcode: en
+status: true
+dependencies: {  }
+id: footer-social-media-menu
+label: 'footer social media menu'
+description: 'menu for social media links'
+locked: false

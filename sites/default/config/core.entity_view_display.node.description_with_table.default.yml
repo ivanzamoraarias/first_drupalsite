@@ -1,0 +1,35 @@
+uuid: 5ddeb878-e826-4a04-ac73-e1716f697589
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.description_with_table.field_descriptionwitht_descripti
+    - field.field.node.description_with_table.field_descriptionwitht_table
+    - node.type.description_with_table
+  module:
+    - tablefield
+    - text
+    - user
+id: node.description_with_table.default
+targetEntityType: node
+bundle: description_with_table
+mode: default
+content:
+  field_descriptionwitht_descripti:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_descriptionwitht_table:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: tablefield
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

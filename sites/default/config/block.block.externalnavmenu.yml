@@ -1,0 +1,24 @@
+uuid: 5e24f5df-7d54-4f3e-9912-d87446410633
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.external-nav-menu
+  module:
+    - system
+  theme:
+    - bartik
+id: externalnavmenu
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:external-nav-menu'
+settings:
+  id: 'system_menu_block:external-nav-menu'
+  label: 'external nav menu'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

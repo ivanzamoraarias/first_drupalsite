@@ -1,0 +1,21 @@
+uuid: 3b964ef6-87fc-408f-8834-fb5a7a4de2ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imagewithc_description
+    - node.type.image_with_content
+  module:
+    - text
+id: node.image_with_content.field_imagewithc_description
+field_name: field_imagewithc_description
+entity_type: node
+bundle: image_with_content
+label: 'imagewithc description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

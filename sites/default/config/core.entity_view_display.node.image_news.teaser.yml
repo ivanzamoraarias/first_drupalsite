@@ -1,0 +1,20 @@
+uuid: 786b5f40-d2bc-4b76-bcb3-6ad6196f89df
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.image_news
+  module:
+    - user
+id: node.image_news.teaser
+targetEntityType: node
+bundle: image_news
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_image_news_image: true
+  field_image_news_title: true

@@ -1,0 +1,23 @@
+uuid: 99a63490-82db-4326-b1a5-1bb121053c24
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_source
+    - node.type.video
+  module:
+    - link
+id: node.video.field_video_source
+field_name: field_video_source
+entity_type: node
+bundle: video
+label: 'video source'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -1,0 +1,25 @@
+uuid: 46c16a97-30e4-4d5d-b4a7-40153ad1aafb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:brand_description_block:8c551435-bf15-4acd-a4d7-964e5cc7bb7b'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: showsthebranddescriptionandimage
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:8c551435-bf15-4acd-a4d7-964e5cc7bb7b'
+settings:
+  id: 'block_content:8c551435-bf15-4acd-a4d7-964e5cc7bb7b'
+  label: 'shows the brand description and image'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

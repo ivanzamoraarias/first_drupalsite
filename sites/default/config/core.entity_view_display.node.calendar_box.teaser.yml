@@ -1,0 +1,21 @@
+uuid: 14225a3f-aa6c-4d10-b675-1d828b47f477
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.calendar_box
+  module:
+    - user
+id: node.calendar_box.teaser
+targetEntityType: node
+bundle: calendar_box
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_calendar_box_day: true
+  field_calendar_box_description: true
+  field_calendar_box_month: true

@@ -1,0 +1,24 @@
+uuid: 4cdc31f3-be05-4a66-8c22-9a5863d1b712
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.internal-nav-menu
+  module:
+    - system
+  theme:
+    - bartik
+id: internalnavmenu
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:internal-nav-menu'
+settings:
+  id: 'system_menu_block:internal-nav-menu'
+  label: 'internal nav menu'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

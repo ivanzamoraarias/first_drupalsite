@@ -1,0 +1,21 @@
+uuid: 84f9d759-9176-44df-94fb-a79e4bd3b4e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_calendar_box_month
+    - node.type.calendar_box
+  module:
+    - text
+id: node.calendar_box.field_calendar_box_month
+field_name: field_calendar_box_month
+entity_type: node
+bundle: calendar_box
+label: 'calendar box month'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

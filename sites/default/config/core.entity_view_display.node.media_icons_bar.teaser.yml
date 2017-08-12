@@ -1,0 +1,25 @@
+uuid: c053cd5e-dd67-4401-b7fb-8c1df14c9bda
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.media_icons_bar.field_media_icons_bar_item_icon
+    - node.type.media_icons_bar
+  module:
+    - user
+id: node.media_icons_bar.teaser
+targetEntityType: node
+bundle: media_icons_bar
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_media_icons_bar_item_icon: true
+  field_media_icons_bar_item_icon2: true
+  field_media_icons_bar_item_icon3: true
+  field_media_icons_bar_item_icon4: true
+  field_media_icons_bar_item_icon5: true
+  field_media_icons_bar_item_icon6: true

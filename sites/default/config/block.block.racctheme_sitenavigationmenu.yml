@@ -1,0 +1,24 @@
+uuid: dc5713d4-273c-4346-9520-c16d1e463e1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.site-navigation-menu
+  module:
+    - system
+  theme:
+    - racctheme
+id: racctheme_sitenavigationmenu
+theme: racctheme
+region: header
+weight: -7
+provider: null
+plugin: 'system_menu_block:site-navigation-menu'
+settings:
+  id: 'system_menu_block:site-navigation-menu'
+  label: 'site navigation menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

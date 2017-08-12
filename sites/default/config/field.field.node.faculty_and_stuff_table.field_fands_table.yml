@@ -1,0 +1,29 @@
+uuid: f3659df8-ff84-4291-b0fc-7e061d441806
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fands_table
+    - node.type.faculty_and_stuff_table
+  module:
+    - tablefield
+id: node.faculty_and_stuff_table.field_fands_table
+field_name: field_fands_table
+entity_type: node
+bundle: faculty_and_stuff_table
+label: fands_table
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  export: 0
+  restrict_rebuild: 1
+  restrict_import: 1
+  lock_values: 0
+  cell_processing: 0
+  empty_rules:
+    ignore_table_structure: 0
+    ignore_table_header: 0
+field_type: tablefield

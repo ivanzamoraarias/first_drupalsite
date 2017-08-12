@@ -1,0 +1,12 @@
+uuid: c8efa2e5-dc32-40e0-bfe8-447c4a7b4228
+langcode: en
+status: true
+dependencies: {  }
+id: need_more_info
+label: 'Need More Info'
+recipients:
+  - test@test.com
+reply: ''
+weight: 0
+message: 'Thanks for contact us, we will send an email with information shortly.'
+redirect: ''

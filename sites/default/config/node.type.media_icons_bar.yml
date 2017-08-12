@@ -1,0 +1,18 @@
+uuid: 38cc908b-9892-432b-b09b-aec1b621de10
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'media icons bar'
+type: media_icons_bar
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

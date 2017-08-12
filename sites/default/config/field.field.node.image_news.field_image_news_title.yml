@@ -1,0 +1,21 @@
+uuid: 773e9895-9200-42ab-ae02-34b032327a6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_news_title
+    - node.type.image_news
+  module:
+    - text
+id: node.image_news.field_image_news_title
+field_name: field_image_news_title
+entity_type: node
+bundle: image_news
+label: 'image news title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

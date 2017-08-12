@@ -1,0 +1,21 @@
+uuid: e11615d5-1ebb-4f8f-9d97-ebeef2923bcc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.image_with_content.field_imagewithc_image
+    - node.type.image_with_content
+  module:
+    - user
+id: node.image_with_content.teaser
+targetEntityType: node
+bundle: image_with_content
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_imagewithc_description: true
+  field_imagewithc_image: true

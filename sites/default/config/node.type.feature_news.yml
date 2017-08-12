@@ -1,0 +1,18 @@
+uuid: 7c6bf2cc-8d43-4a51-800c-c0e1fafe3ffe
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'feature news'
+type: feature_news
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

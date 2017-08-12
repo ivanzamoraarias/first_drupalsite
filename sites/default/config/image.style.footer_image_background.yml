@@ -1,0 +1,15 @@
+uuid: e1997e51-c08f-477c-89c6-1f1d77ef15b4
+langcode: en
+status: true
+dependencies: {  }
+name: footer_image_background
+label: 'footer image background'
+effects:
+  00c0b996-40ce-480a-a423-4f92fa95b13e:
+    uuid: 00c0b996-40ce-480a-a423-4f92fa95b13e
+    id: image_scale
+    weight: 1
+    data:
+      width: 1265
+      height: 845
+      upscale: true

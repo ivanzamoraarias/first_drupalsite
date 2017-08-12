@@ -1,0 +1,26 @@
+uuid: ad9896a0-cf47-48bf-8190-aaf7b948758e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.academics.body
+    - node.type.academics
+  module:
+    - text
+    - user
+id: node.academics.default
+targetEntityType: node
+bundle: academics
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

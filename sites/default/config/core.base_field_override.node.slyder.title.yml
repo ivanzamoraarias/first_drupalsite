@@ -1,0 +1,18 @@
+uuid: da59948f-7cad-402d-bf35-d509ae1dd21d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.slyder
+id: node.slyder.title
+field_name: title
+entity_type: node
+bundle: slyder
+label: slyder
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

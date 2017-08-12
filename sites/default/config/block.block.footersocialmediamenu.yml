@@ -1,0 +1,24 @@
+uuid: e62d240f-73aa-4751-bf93-6e448b4e49cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-social-media-menu
+  module:
+    - system
+  theme:
+    - bartik
+id: footersocialmediamenu
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer-social-media-menu'
+settings:
+  id: 'system_menu_block:footer-social-media-menu'
+  label: 'footer social media menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

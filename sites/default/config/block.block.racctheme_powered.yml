@@ -1,0 +1,22 @@
+uuid: 6bb2c127-09e2-4268-92bd-d56ca919aeaa
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - racctheme
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: racctheme_powered
+theme: racctheme
+region: sidebar_first
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

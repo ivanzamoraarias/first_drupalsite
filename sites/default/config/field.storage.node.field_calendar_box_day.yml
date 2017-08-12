@@ -1,0 +1,20 @@
+uuid: 33e033f4-4683-4890-9090-3702e36b57ea
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_calendar_box_day
+field_name: field_calendar_box_day
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

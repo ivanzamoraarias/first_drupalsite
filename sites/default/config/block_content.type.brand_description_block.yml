@@ -1,0 +1,8 @@
+uuid: 23145b8c-20b0-4d95-bc57-7cae568563a5
+langcode: en
+status: true
+dependencies: {  }
+id: brand_description_block
+label: 'brand description block'
+revision: 0
+description: ''

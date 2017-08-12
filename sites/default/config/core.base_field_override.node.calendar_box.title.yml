@@ -1,0 +1,18 @@
+uuid: 64cd9412-ea2a-48c5-8c68-944be80d7a3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.calendar_box
+id: node.calendar_box.title
+field_name: title
+entity_type: node
+bundle: calendar_box
+label: 'calendar box'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

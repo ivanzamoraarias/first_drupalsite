@@ -1,0 +1,22 @@
+uuid: 75b13b5a-e368-4621-b3bd-9b4ca3ddc230
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descriptionwitht_descripti
+    - node.type.description_with_table
+  module:
+    - text
+id: node.description_with_table.field_descriptionwitht_descripti
+field_name: field_descriptionwitht_descripti
+entity_type: node
+bundle: description_with_table
+label: 'descriptionwitht description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

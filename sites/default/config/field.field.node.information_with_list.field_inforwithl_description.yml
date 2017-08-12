@@ -1,0 +1,22 @@
+uuid: 4a3a4a8a-1534-4140-9eb5-ecaa6bbd434b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_inforwithl_description
+    - node.type.information_with_list
+  module:
+    - text
+id: node.information_with_list.field_inforwithl_description
+field_name: field_inforwithl_description
+entity_type: node
+bundle: information_with_list
+label: 'inforwithl description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

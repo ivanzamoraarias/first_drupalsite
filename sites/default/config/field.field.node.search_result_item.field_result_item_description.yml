@@ -1,0 +1,22 @@
+uuid: c6825689-5a72-4b79-9f53-688b012e4b22
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_result_item_description
+    - node.type.search_result_item
+  module:
+    - text
+id: node.search_result_item.field_result_item_description
+field_name: field_result_item_description
+entity_type: node
+bundle: search_result_item
+label: 'result item description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

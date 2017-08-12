@@ -1,0 +1,35 @@
+uuid: 592eeef9-c8b2-4425-bc85-d0efaa20788b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.information_with_list.field_inforwithl_description
+    - field.field.node.information_with_list.field_inforwithl_list
+    - node.type.information_with_list
+  module:
+    - options
+    - text
+    - user
+id: node.information_with_list.default
+targetEntityType: node
+bundle: information_with_list
+mode: default
+content:
+  field_inforwithl_description:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_inforwithl_list:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

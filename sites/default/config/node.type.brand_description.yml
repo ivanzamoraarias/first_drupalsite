@@ -1,0 +1,18 @@
+uuid: c85c17a0-50cc-4186-a642-7dba3ef52761
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'brand description'
+type: brand_description
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

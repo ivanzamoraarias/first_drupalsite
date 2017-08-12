@@ -1,0 +1,22 @@
+uuid: 9630c592-181b-4627-8c52-9db8d9574963
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.description_with_table.field_descriptionwitht_descripti
+    - field.field.node.description_with_table.field_descriptionwitht_table
+    - node.type.description_with_table
+  module:
+    - user
+id: node.description_with_table.teaser
+targetEntityType: node
+bundle: description_with_table
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_descriptionwitht_descripti: true
+  field_descriptionwitht_table: true

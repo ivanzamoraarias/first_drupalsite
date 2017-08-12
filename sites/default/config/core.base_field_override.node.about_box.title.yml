@@ -1,0 +1,18 @@
+uuid: 23832e17-ef41-4cea-87bf-8be3ee495f2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.about_box
+id: node.about_box.title
+field_name: title
+entity_type: node
+bundle: about_box
+label: 'about box'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

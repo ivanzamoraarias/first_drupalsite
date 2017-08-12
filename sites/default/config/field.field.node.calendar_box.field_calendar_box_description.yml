@@ -1,0 +1,19 @@
+uuid: 503aebc7-91ad-49d4-8f8b-de2a45dd33cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_calendar_box_description
+    - node.type.calendar_box
+id: node.calendar_box.field_calendar_box_description
+field_name: field_calendar_box_description
+entity_type: node
+bundle: calendar_box
+label: 'calendar box description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

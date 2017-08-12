@@ -1,0 +1,18 @@
+uuid: 10812936-2e78-4eea-9e92-df2a14481d37
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Academics
+type: academics
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

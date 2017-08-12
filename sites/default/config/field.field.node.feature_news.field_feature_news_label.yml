@@ -1,0 +1,19 @@
+uuid: fe880138-4576-4cab-bc04-542f8b941f13
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_feature_news_label
+    - node.type.feature_news
+id: node.feature_news.field_feature_news_label
+field_name: field_feature_news_label
+entity_type: node
+bundle: feature_news
+label: 'feature news label'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,29 @@
+uuid: 65d398b2-8e2d-4491-83c3-c52660c21033
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.about_box.body
+    - node.type.about_box
+  module:
+    - text
+    - user
+id: node.about_box.teaser
+targetEntityType: node
+bundle: about_box
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_about_box_title: true

@@ -1,0 +1,21 @@
+uuid: f30c683a-8089-4132-99ef-25dd18f5d0dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_inforwithl_list
+    - node.type.information_with_list
+  module:
+    - options
+id: node.information_with_list.field_inforwithl_list
+field_name: field_inforwithl_list
+entity_type: node
+bundle: information_with_list
+label: 'inforwithl list'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

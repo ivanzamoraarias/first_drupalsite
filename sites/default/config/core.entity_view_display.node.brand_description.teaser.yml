@@ -1,0 +1,22 @@
+uuid: 65af39f1-8681-46cf-9b7b-ba1035cb4eb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.brand_description.field_brand_description_image
+    - field.field.node.brand_description.field_brand_description_text
+    - node.type.brand_description
+  module:
+    - user
+id: node.brand_description.teaser
+targetEntityType: node
+bundle: brand_description
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_brand_description_image: true
+  field_brand_description_text: true

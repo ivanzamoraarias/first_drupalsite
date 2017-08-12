@@ -1,0 +1,15 @@
+uuid: 57d6ffda-d43f-4c2b-9c30-ad61d5e70f81
+langcode: en
+status: true
+dependencies: {  }
+name: racc_footer_logo
+label: 'racc footer logo'
+effects:
+  86bb4f0d-8a0f-4073-99d7-160a6920676a:
+    uuid: 86bb4f0d-8a0f-4073-99d7-160a6920676a
+    id: image_scale
+    weight: 1
+    data:
+      width: 280
+      height: 138
+      upscale: true

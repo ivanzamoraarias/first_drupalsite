@@ -1,0 +1,24 @@
+uuid: 7c44669f-ef64-4426-a457-59d92c5b5a57
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.logo_images.field_logo_image_logo1
+    - field.field.node.logo_images.field_logo_image_logo2
+    - field.field.node.logo_images.field_logo_image_logo3
+    - node.type.logo_images
+  module:
+    - user
+id: node.logo_images.teaser
+targetEntityType: node
+bundle: logo_images
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_logo_image_logo1: true
+  field_logo_image_logo2: true
+  field_logo_image_logo3: true

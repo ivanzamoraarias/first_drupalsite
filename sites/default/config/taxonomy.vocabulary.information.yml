@@ -1,0 +1,9 @@
+uuid: eae94754-b693-4331-8714-44debe4f60db
+langcode: en
+status: true
+dependencies: {  }
+name: Information
+vid: information
+description: 'all related to informational data as about content , or description about services'
+hierarchy: 0
+weight: 0

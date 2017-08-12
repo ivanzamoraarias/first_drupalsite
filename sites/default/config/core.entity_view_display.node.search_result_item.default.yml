@@ -1,0 +1,26 @@
+uuid: 519b1d86-e14f-4405-aa87-1330b16cfd74
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.search_result_item.field_result_item_description
+    - node.type.search_result_item
+  module:
+    - text
+    - user
+id: node.search_result_item.default
+targetEntityType: node
+bundle: search_result_item
+mode: default
+content:
+  field_result_item_description:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

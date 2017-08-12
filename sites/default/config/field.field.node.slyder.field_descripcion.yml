@@ -1,0 +1,24 @@
+uuid: 5fcf9820-f130-4cbb-8f69-937a8d0587ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion
+    - node.type.slyder
+  module:
+    - text
+id: node.slyder.field_descripcion
+field_name: field_descripcion
+entity_type: node
+bundle: slyder
+label: descripcion
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'image description'
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text

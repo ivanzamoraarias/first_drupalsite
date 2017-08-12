@@ -1,0 +1,22 @@
+uuid: ec7caf00-1387-4b51-bda2-324076abacbb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: academic_related_content
+label: 'academic related content'
+type: 'canonical_entities:node'
+pattern: '/academics/[node:title]'
+selection_criteria:
+  09236266-10f1-4725-8b4c-068f57b1b8a9:
+    id: node_type
+    bundles:
+      academics: academics
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 09236266-10f1-4725-8b4c-068f57b1b8a9
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,19 @@
+uuid: 7f4c5b60-cb0d-4d9a-a5f8-7e80a8049a86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_description
+    - node.type.video
+id: node.video.field_video_description
+field_name: field_video_description
+entity_type: node
+bundle: video
+label: 'video description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,24 @@
+uuid: ea272a4d-880e-4cc2-833e-59c33298947b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-main-menu
+  module:
+    - system
+  theme:
+    - bartik
+id: footermainmenu
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer-main-menu'
+settings:
+  id: 'system_menu_block:footer-main-menu'
+  label: 'footer main menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

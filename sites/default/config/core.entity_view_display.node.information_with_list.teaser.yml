@@ -1,0 +1,22 @@
+uuid: dff3d43c-3cf3-41e9-bcf1-ec519f7a384b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.information_with_list.field_inforwithl_description
+    - field.field.node.information_with_list.field_inforwithl_list
+    - node.type.information_with_list
+  module:
+    - user
+id: node.information_with_list.teaser
+targetEntityType: node
+bundle: information_with_list
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_inforwithl_description: true
+  field_inforwithl_list: true

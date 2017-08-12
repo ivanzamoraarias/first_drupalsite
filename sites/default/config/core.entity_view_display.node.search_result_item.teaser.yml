@@ -1,0 +1,20 @@
+uuid: ebede589-b81a-435c-a696-20f97a4a9192
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.search_result_item.field_result_item_description
+    - node.type.search_result_item
+  module:
+    - user
+id: node.search_result_item.teaser
+targetEntityType: node
+bundle: search_result_item
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_result_item_description: true

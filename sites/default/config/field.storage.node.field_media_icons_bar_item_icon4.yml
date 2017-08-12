@@ -1,0 +1,30 @@
+uuid: 4e515973-6864-4e52-a491-c5d98ba1206d
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_media_icons_bar_item_icon4
+field_name: field_media_icons_bar_item_icon4
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

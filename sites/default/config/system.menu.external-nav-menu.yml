@@ -1,0 +1,8 @@
+uuid: 1df8ef53-f0a7-45c8-9570-742e8de5464d
+langcode: en
+status: true
+dependencies: {  }
+id: external-nav-menu
+label: 'external nav menu'
+description: 'menu for external links on header'
+locked: false

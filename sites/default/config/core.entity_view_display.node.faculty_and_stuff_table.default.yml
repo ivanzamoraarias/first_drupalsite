@@ -1,0 +1,26 @@
+uuid: 1a516c2d-424d-4f37-88e3-387634d4812e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.faculty_and_stuff_table.field_fands_table
+    - node.type.faculty_and_stuff_table
+  module:
+    - tablefield
+    - user
+id: node.faculty_and_stuff_table.default
+targetEntityType: node
+bundle: faculty_and_stuff_table
+mode: default
+content:
+  field_fands_table:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: tablefield
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,19 @@
+uuid: 4090919b-4261-4129-ab0d-c2c980f29204
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - tablefield
+id: node.field_fands_table
+field_name: field_fands_table
+entity_type: node
+type: tablefield
+settings: {  }
+module: tablefield
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

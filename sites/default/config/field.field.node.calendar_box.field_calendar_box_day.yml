@@ -1,0 +1,23 @@
+uuid: 1649e614-9f77-44e9-ac4e-40dd461a5b18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_calendar_box_day
+    - node.type.calendar_box
+id: node.calendar_box.field_calendar_box_day
+field_name: field_calendar_box_day
+entity_type: node
+bundle: calendar_box
+label: 'calendar box day'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

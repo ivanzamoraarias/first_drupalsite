@@ -1,0 +1,20 @@
+uuid: 99fcc162-3baf-42c9-9ddb-8cdfcbb1deec
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.faculty_and_stuff_table.field_fands_table
+    - node.type.faculty_and_stuff_table
+  module:
+    - user
+id: node.faculty_and_stuff_table.teaser
+targetEntityType: node
+bundle: faculty_and_stuff_table
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_fands_table: true

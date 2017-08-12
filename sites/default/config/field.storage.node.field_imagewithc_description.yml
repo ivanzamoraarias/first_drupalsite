@@ -1,0 +1,20 @@
+uuid: 9c6b2ca1-3e6d-44a9-a807-9950caceb24c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_imagewithc_description
+field_name: field_imagewithc_description
+entity_type: node
+type: text
+settings:
+  max_length: 100
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

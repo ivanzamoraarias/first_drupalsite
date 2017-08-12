@@ -1,0 +1,8 @@
+uuid: 7b54784a-4e94-4007-8902-474998c7e2d7
+langcode: en
+status: true
+dependencies: {  }
+id: basic_page
+label: 'Basic Page'
+target_entity_type_id: block_content
+description: 'basic page with tittle and content'

@@ -1,0 +1,21 @@
+uuid: f3ce05f0-45bc-4d85-85e0-823b2840e5cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_about_box_title
+    - node.type.about_box
+  module:
+    - text
+id: node.about_box.field_about_box_title
+field_name: field_about_box_title
+entity_type: node
+bundle: about_box
+label: 'about box title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

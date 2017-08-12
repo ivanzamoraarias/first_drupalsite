@@ -1,0 +1,48 @@
+uuid: 202ffd5d-552c-4c1c-a6f2-45f4b35b98ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.logo_images.field_logo_image_logo1
+    - field.field.node.logo_images.field_logo_image_logo2
+    - field.field.node.logo_images.field_logo_image_logo3
+    - node.type.logo_images
+  module:
+    - image
+    - user
+id: node.logo_images.default
+targetEntityType: node
+bundle: logo_images
+mode: default
+content:
+  field_logo_image_logo1:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_logo_image_logo2:
+    weight: 103
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_logo_image_logo3:
+    weight: 104
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

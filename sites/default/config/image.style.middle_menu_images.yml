@@ -1,0 +1,15 @@
+uuid: 355282ff-0e70-457e-9982-8b1a582a3f21
+langcode: en
+status: true
+dependencies: {  }
+name: middle_menu_images
+label: 'middle menu images'
+effects:
+  22c212d6-4933-412f-a866-d7dfc9fe8657:
+    uuid: 22c212d6-4933-412f-a866-d7dfc9fe8657
+    id: image_scale
+    weight: 1
+    data:
+      width: 637
+      height: 319
+      upscale: true

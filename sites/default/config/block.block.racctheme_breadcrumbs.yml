@@ -1,0 +1,22 @@
+uuid: 482476fa-79e1-4687-bcf0-768a8a53e2fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - racctheme
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: racctheme_breadcrumbs
+theme: racctheme
+region: breadcrumb
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

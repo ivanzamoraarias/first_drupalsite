@@ -1,0 +1,34 @@
+uuid: 87996ba4-6689-4ba2-97a6-73df59383bc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.about_box.body
+    - field.field.node.about_box.field_about_box_title
+    - node.type.about_box
+  module:
+    - text
+    - user
+id: node.about_box.default
+targetEntityType: node
+bundle: about_box
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_about_box_title:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

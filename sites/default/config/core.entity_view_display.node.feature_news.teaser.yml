@@ -1,0 +1,22 @@
+uuid: 156f014d-b409-4098-a7af-26f9116e3c57
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.feature_news
+  module:
+    - user
+id: node.feature_news.teaser
+targetEntityType: node
+bundle: feature_news
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_feature_news_description: true
+  field_feature_news_image: true
+  field_feature_news_label: true
+  field_feature_news_title: true

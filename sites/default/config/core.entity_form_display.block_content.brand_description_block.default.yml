@@ -1,0 +1,36 @@
+uuid: fae5191f-d1bd-459a-bece-d1278210956c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.brand_description_block
+    - field.field.block_content.brand_description_block.body
+    - field.field.block_content.brand_description_block.field_brand_desc_block_image
+    - image.style.thumbnail
+  module:
+    - image
+    - text
+id: block_content.brand_description_block.default
+targetEntityType: block_content
+bundle: brand_description_block
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 1
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_brand_desc_block_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  info: true

@@ -1,0 +1,22 @@
+uuid: fa98b439-40e8-4dd3-bef1-e78ff4da662e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.slyder.field_title
+    - node.type.slyder
+  module:
+    - user
+id: node.slyder.teaser
+targetEntityType: node
+bundle: slyder
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_descripcion: true
+  field_dynamic_image: true
+  field_title: true

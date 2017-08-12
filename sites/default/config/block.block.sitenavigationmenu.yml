@@ -1,0 +1,24 @@
+uuid: 8f460d74-8db3-4bb9-abe6-cddd381e2bfc
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.site-navigation-menu
+  module:
+    - system
+  theme:
+    - bartik
+id: sitenavigationmenu
+theme: bartik
+region: header
+weight: -7
+provider: null
+plugin: 'system_menu_block:site-navigation-menu'
+settings:
+  id: 'system_menu_block:site-navigation-menu'
+  label: 'site navigation menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

@@ -1,0 +1,9 @@
+uuid: 94e0b653-e1f5-4952-8adf-3d3f3ce6d88d
+langcode: en
+status: true
+dependencies: {  }
+name: 'News category'
+vid: news_category
+description: 'news taxonomie'
+hierarchy: 0
+weight: 0

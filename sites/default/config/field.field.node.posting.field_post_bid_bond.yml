@@ -1,0 +1,23 @@
+uuid: 310e2f9f-2a87-4f11-8841-d89c6e034b93
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_post_bid_bond
+    - node.type.posting
+id: node.posting.field_post_bid_bond
+field_name: field_post_bid_bond
+entity_type: node
+bundle: posting
+label: 'Bid bond'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

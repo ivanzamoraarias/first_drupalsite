@@ -1,0 +1,22 @@
+uuid: 7505f968-62da-40aa-9835-8cd78589e5a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_caop_application_instructi
+    - node.type.career_opportunities
+  module:
+    - text
+id: node.career_opportunities.field_caop_application_instructi
+field_name: field_caop_application_instructi
+entity_type: node
+bundle: career_opportunities
+label: 'Application Instructions'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,19 @@
+uuid: 7f82ab76-6769-4eaf-b956-2b1124a4832b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_caop_preferred_qualificati
+    - node.type.career_opportunities
+id: node.career_opportunities.field_caop_preferred_qualificati
+field_name: field_caop_preferred_qualificati
+entity_type: node
+bundle: career_opportunities
+label: 'Preferred Qualifications'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

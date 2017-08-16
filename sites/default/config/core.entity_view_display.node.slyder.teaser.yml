@@ -4,7 +4,8 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.slyder.field_title
+    - field.field.node.slyder.field_descripcion
+    - field.field.node.slyder.field_dynamic_image
     - node.type.slyder
   module:
     - user
@@ -19,4 +20,3 @@ content:
 hidden:
   field_descripcion: true
   field_dynamic_image: true
-  field_title: true

@@ -1,0 +1,21 @@
+uuid: 95956d8a-654f-4acc-b417-a245760f2f3e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - range
+id: node.field_caop_salary
+field_name: field_caop_salary
+entity_type: node
+type: range_decimal
+settings:
+  precision: 10
+  scale: 2
+module: range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

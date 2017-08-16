@@ -1,0 +1,18 @@
+uuid: b2b127af-be0c-4525-9a83-7df753eee769
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.member
+  module:
+    - user
+id: node.member.teaser
+targetEntityType: node
+bundle: member
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden: {  }

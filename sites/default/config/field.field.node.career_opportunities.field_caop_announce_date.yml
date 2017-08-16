@@ -1,0 +1,21 @@
+uuid: 63fc1c87-f893-4f6f-9210-34a828307685
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_caop_announce_date
+    - node.type.career_opportunities
+  module:
+    - datetime
+id: node.career_opportunities.field_caop_announce_date
+field_name: field_caop_announce_date
+entity_type: node
+bundle: career_opportunities
+label: 'Announce date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

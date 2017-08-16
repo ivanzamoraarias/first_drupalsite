@@ -1,0 +1,19 @@
+uuid: 40bed46d-906c-4f92-b083-5cc380068af2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_required_qualifications
+field_name: field_required_qualifications
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

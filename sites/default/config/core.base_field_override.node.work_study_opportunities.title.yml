@@ -1,0 +1,18 @@
+uuid: 2b6f29dc-215e-4b2d-8f10-48c7d4b1abac
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.work_study_opportunities
+id: node.work_study_opportunities.title
+field_name: title
+entity_type: node
+bundle: work_study_opportunities
+label: 'Job title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

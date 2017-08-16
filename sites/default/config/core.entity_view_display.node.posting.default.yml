@@ -1,0 +1,114 @@
+uuid: b14908fa-3cbd-4b57-b140-479f54ad43ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.posting.field_department
+    - field.field.node.posting.field_post_additional_info
+    - field.field.node.posting.field_post_bid_bond
+    - field.field.node.posting.field_post_bid_fee
+    - field.field.node.posting.field_post_date
+    - field.field.node.posting.field_post_description
+    - field.field.node.posting.field_post_due_date
+    - field.field.node.posting.field_post_performance_bond
+    - field.field.node.posting.field_post_proposal_number
+    - field.field.node.posting.field_post_refund
+    - node.type.posting
+  module:
+    - datetime
+    - text
+    - user
+id: node.posting.default
+targetEntityType: node
+bundle: posting
+mode: default
+content:
+  field_department:
+    weight: 113
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_post_additional_info:
+    weight: 112
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_post_bid_bond:
+    weight: 108
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_post_bid_fee:
+    weight: 110
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_post_date:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_post_description:
+    weight: 106
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_post_due_date:
+    weight: 107
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_post_performance_bond:
+    weight: 109
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_post_proposal_number:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_post_refund:
+    weight: 111
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,71 @@
+uuid: 73554170-30c5-4caf-9534-be41f8e88f26
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.member.field_member_department
+    - field.field.node.member.field_member_email
+    - field.field.node.member.field_member_isfaculty
+    - field.field.node.member.field_member_mailbox
+    - field.field.node.member.field_member_phone
+    - field.field.node.member.field_member_room
+    - node.type.member
+  module:
+    - user
+id: node.member.default
+targetEntityType: node
+bundle: member
+mode: default
+content:
+  field_member_department:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_member_email:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_member_isfaculty:
+    weight: 106
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_member_mailbox:
+    weight: 105
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_member_phone:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_member_room:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

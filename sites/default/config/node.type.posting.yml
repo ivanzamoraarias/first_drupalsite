@@ -1,0 +1,18 @@
+uuid: 6afb1619-8429-48fe-a914-8d405796a00f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: posting
+type: posting
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

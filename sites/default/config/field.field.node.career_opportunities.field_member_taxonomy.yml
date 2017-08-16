@@ -1,0 +1,28 @@
+uuid: a446f8e6-a3ad-4a0e-ae18-ba0de34a9a0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_member_taxonomy
+    - node.type.career_opportunities
+    - taxonomy.vocabulary.employee
+id: node.career_opportunities.field_member_taxonomy
+field_name: field_member_taxonomy
+entity_type: node
+bundle: career_opportunities
+label: 'member taxonomy'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      employee: employee
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

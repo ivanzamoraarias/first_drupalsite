@@ -1,0 +1,38 @@
+uuid: 69256023-8f10-41dc-8b1e-f24999bc04d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.posting.field_department
+    - field.field.node.posting.field_post_additional_info
+    - field.field.node.posting.field_post_bid_bond
+    - field.field.node.posting.field_post_bid_fee
+    - field.field.node.posting.field_post_date
+    - field.field.node.posting.field_post_description
+    - field.field.node.posting.field_post_due_date
+    - field.field.node.posting.field_post_performance_bond
+    - field.field.node.posting.field_post_proposal_number
+    - field.field.node.posting.field_post_refund
+    - node.type.posting
+  module:
+    - user
+id: node.posting.teaser
+targetEntityType: node
+bundle: posting
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_department: true
+  field_post_additional_info: true
+  field_post_bid_bond: true
+  field_post_bid_fee: true
+  field_post_date: true
+  field_post_description: true
+  field_post_due_date: true
+  field_post_performance_bond: true
+  field_post_proposal_number: true
+  field_post_refund: true

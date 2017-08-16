@@ -1,0 +1,20 @@
+uuid: 12c09cdf-437b-49bb-abe9-fac44e5c1c72
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_member_taxonomy
+field_name: field_member_taxonomy
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: 225ab8d9-a4f1-4351-a92b-346d938db4af
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_caop_preferred_qualificati
+field_name: field_caop_preferred_qualificati
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

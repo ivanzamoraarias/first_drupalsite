@@ -1,15 +1,15 @@
-uuid: 3bc80e4a-fc71-4ade-a413-b63dd397394c
+uuid: 67b3dd03-56c8-4b88-b3f8-de27b9050e00
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_title
-field_name: field_title
+id: node.field_member_room
+field_name: field_member_room
 entity_type: node
 type: string
 settings:
-  max_length: 255
+  max_length: 10
   is_ascii: false
   case_sensitive: false
 module: core

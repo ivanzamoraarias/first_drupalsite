@@ -1,0 +1,23 @@
+uuid: 906bd9ef-35a0-46b2-8ec3-5069f62053a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_post_performance_bond
+    - node.type.posting
+id: node.posting.field_post_performance_bond
+field_name: field_post_performance_bond
+entity_type: node
+bundle: posting
+label: 'post Performance bond'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

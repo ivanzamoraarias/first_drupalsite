@@ -1,0 +1,22 @@
+uuid: ebea7fdd-9963-4ac7-a057-0f1f00eada5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.career_opportunities.field_caop_application_instructi
+    - field.field.node.career_opportunities.field_caop_background_check
+    - node.type.career_opportunities
+  module:
+    - user
+id: node.career_opportunities.teaser
+targetEntityType: node
+bundle: career_opportunities
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_caop_application_instructi: true
+  field_caop_background_check: true

@@ -1,0 +1,132 @@
+uuid: caba1881-c71f-4854-a27d-2a1e9e4484e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.career_opportunities.field_caop_announce_date
+    - field.field.node.career_opportunities.field_caop_application_instructi
+    - field.field.node.career_opportunities.field_caop_application_status
+    - field.field.node.career_opportunities.field_caop_apply_by_date
+    - field.field.node.career_opportunities.field_caop_background_check
+    - field.field.node.career_opportunities.field_caop_certificates
+    - field.field.node.career_opportunities.field_caop_preferred_qualificati
+    - field.field.node.career_opportunities.field_caop_salary
+    - field.field.node.career_opportunities.field_caop_summary
+    - field.field.node.career_opportunities.field_member_taxonomy
+    - field.field.node.career_opportunities.field_position_type
+    - field.field.node.career_opportunities.field_required_qualifications
+    - node.type.career_opportunities
+  module:
+    - datetime
+    - range
+    - text
+    - user
+id: node.career_opportunities.default
+targetEntityType: node
+bundle: career_opportunities
+mode: default
+content:
+  field_caop_announce_date:
+    weight: 104
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_caop_application_instructi:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_caop_application_status:
+    weight: 106
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_caop_apply_by_date:
+    weight: 105
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_caop_background_check:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_caop_certificates:
+    weight: 111
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_caop_preferred_qualificati:
+    weight: 112
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_caop_salary:
+    weight: 108
+    label: above
+    settings:
+      decimal_separator: .
+      scale: 2
+      range_separator: '-'
+      thousand_separator: ''
+      range_combine: true
+      from_prefix_suffix: false
+      to_prefix_suffix: false
+    third_party_settings: {  }
+    type: range_decimal
+    region: content
+  field_caop_summary:
+    weight: 109
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_member_taxonomy:
+    weight: 113
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_position_type:
+    weight: 107
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_required_qualifications:
+    weight: 110
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

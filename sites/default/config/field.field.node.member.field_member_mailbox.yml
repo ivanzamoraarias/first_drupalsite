@@ -1,0 +1,19 @@
+uuid: d60532e4-bbce-4e85-b57a-ec6de9a911ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_member_mailbox
+    - node.type.member
+id: node.member.field_member_mailbox
+field_name: field_member_mailbox
+entity_type: node
+bundle: member
+label: 'member Mailbox'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

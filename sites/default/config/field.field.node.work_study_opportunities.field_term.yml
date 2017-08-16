@@ -1,0 +1,19 @@
+uuid: 999997d0-1522-4b9b-8a4e-312ce1fc22fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_term
+    - node.type.work_study_opportunities
+id: node.work_study_opportunities.field_term
+field_name: field_term
+entity_type: node
+bundle: work_study_opportunities
+label: term
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

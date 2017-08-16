@@ -1,0 +1,21 @@
+uuid: fd3bc41a-2134-4d29-88ff-33b67bd0aec7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_post_description
+    - node.type.posting
+  module:
+    - text
+id: node.posting.field_post_description
+field_name: field_post_description
+entity_type: node
+bundle: posting
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

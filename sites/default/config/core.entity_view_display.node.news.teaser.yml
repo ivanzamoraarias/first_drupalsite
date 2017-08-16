@@ -1,17 +1,17 @@
-uuid: dc10ff44-73a0-443b-bd6a-b4e304f3793d
+uuid: 7e27f4a6-8203-4021-8398-68321c5cf3d4
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.event.body
-    - node.type.event
+    - field.field.node.news.body
+    - node.type.news
   module:
     - text
     - user
-id: node.event.teaser
+id: node.news.teaser
 targetEntityType: node
-bundle: event
+bundle: news
 mode: teaser
 content:
   body:
@@ -25,6 +25,4 @@ content:
   links:
     weight: 100
     region: content
-hidden:
-  field_event_date: true
-  field_event_place: true
+hidden: {  }

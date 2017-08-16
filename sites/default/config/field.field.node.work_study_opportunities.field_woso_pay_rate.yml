@@ -1,0 +1,19 @@
+uuid: 99967bc8-f01f-49e9-bddf-a3243f2f6290
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_woso_pay_rate
+    - node.type.work_study_opportunities
+id: node.work_study_opportunities.field_woso_pay_rate
+field_name: field_woso_pay_rate
+entity_type: node
+bundle: work_study_opportunities
+label: 'Pay rate'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: f8f1257a-4c22-4928-85ba-4f2ea083f889
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_member_isfaculty
+    - node.type.member
+id: node.member.field_member_isfaculty
+field_name: field_member_isfaculty
+entity_type: node
+bundle: member
+label: 'member isFaculty'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

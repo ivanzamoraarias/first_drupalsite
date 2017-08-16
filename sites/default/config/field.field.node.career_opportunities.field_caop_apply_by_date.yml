@@ -1,0 +1,21 @@
+uuid: 8e6757a1-48f8-4d16-90cb-3bed7418d48f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_caop_apply_by_date
+    - node.type.career_opportunities
+  module:
+    - datetime
+id: node.career_opportunities.field_caop_apply_by_date
+field_name: field_caop_apply_by_date
+entity_type: node
+bundle: career_opportunities
+label: 'Apply by date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

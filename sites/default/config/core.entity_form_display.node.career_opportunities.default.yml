@@ -1,0 +1,164 @@
+uuid: 592c5836-a6c0-4b15-931a-6306bc278005
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.career_opportunities.field_caop_announce_date
+    - field.field.node.career_opportunities.field_caop_application_instructi
+    - field.field.node.career_opportunities.field_caop_application_status
+    - field.field.node.career_opportunities.field_caop_apply_by_date
+    - field.field.node.career_opportunities.field_caop_background_check
+    - field.field.node.career_opportunities.field_caop_certificates
+    - field.field.node.career_opportunities.field_caop_preferred_qualificati
+    - field.field.node.career_opportunities.field_caop_salary
+    - field.field.node.career_opportunities.field_caop_summary
+    - field.field.node.career_opportunities.field_member_taxonomy
+    - field.field.node.career_opportunities.field_position_type
+    - field.field.node.career_opportunities.field_required_qualifications
+    - node.type.career_opportunities
+  module:
+    - datetime
+    - path
+    - range
+    - text
+id: node.career_opportunities.default
+targetEntityType: node
+bundle: career_opportunities
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_caop_announce_date:
+    weight: 34
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_caop_application_instructi:
+    weight: 32
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_caop_application_status:
+    weight: 36
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_caop_apply_by_date:
+    weight: 35
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_caop_background_check:
+    weight: 33
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_caop_certificates:
+    weight: 41
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_caop_preferred_qualificati:
+    weight: 42
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_caop_salary:
+    weight: 38
+    settings: {  }
+    third_party_settings: {  }
+    type: range
+    region: content
+  field_caop_summary:
+    weight: 39
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_member_taxonomy:
+    weight: 43
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_position_type:
+    weight: 37
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_required_qualifications:
+    weight: 40
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

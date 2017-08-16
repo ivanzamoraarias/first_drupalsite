@@ -1,0 +1,21 @@
+uuid: e3843028-e988-4015-93f2-088627c0ddc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_member_phone
+    - node.type.member
+  module:
+    - telephone
+id: node.member.field_member_phone
+field_name: field_member_phone
+entity_type: node
+bundle: member
+label: phone/ext.
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

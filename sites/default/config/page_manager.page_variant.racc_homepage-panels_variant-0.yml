@@ -1,0 +1,127 @@
+uuid: caca51f4-4b59-446a-b6d5-f58447dae7f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.racc_homepage
+    - views.view.basic_page_views
+    - views.view.events
+    - views.view.news
+    - views.view.slider_images_view
+  content:
+    - 'block_content:basic:85ce1b69-7112-4e50-b30c-565e066d37f9'
+    - 'block_content:sponsors_block:0b588f97-4a82-4bfb-a8f6-30a10b176620'
+  module:
+    - block_content
+    - contact
+    - panels
+    - views
+id: racc_homepage-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    820a4d9a-bacb-4213-ad40-5f7904a5c459:
+      id: 'views_block:slider_images_view-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: -3
+      uuid: 820a4d9a-bacb-4213-ad40-5f7904a5c459
+      context_mapping: {  }
+    625b902f-b800-4e0a-9a98-b66daa130f45:
+      id: 'views_block:news-block_2'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: -1
+      uuid: 625b902f-b800-4e0a-9a98-b66daa130f45
+      context_mapping: {  }
+    75c5d81f-4158-4f3e-b77c-5526ae17ec74:
+      id: 'views_block:news-block_3'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: -2
+      uuid: 75c5d81f-4158-4f3e-b77c-5526ae17ec74
+      context_mapping: {  }
+    2ad5ccaf-5590-42ce-8f0b-5a4a2212349b:
+      id: 'views_block:events-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 0
+      uuid: 2ad5ccaf-5590-42ce-8f0b-5a4a2212349b
+      context_mapping: {  }
+    8c17e017-b993-4641-a9cc-d2e58752e3df:
+      id: formblock_contact
+      label: 'Need More Info'
+      provider: contact
+      label_display: visible
+      contact_form: need_more_info
+      region: content
+      weight: 1
+      uuid: 8c17e017-b993-4641-a9cc-d2e58752e3df
+      context_mapping: {  }
+    88d46d80-7969-4f75-b651-d374bf25e871:
+      id: 'views_block:basic_page_views-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: content
+      weight: 2
+      uuid: 88d46d80-7969-4f75-b651-d374bf25e871
+      context_mapping: {  }
+    b2ae0b57-f09a-41c9-bedc-dbf1d25c5559:
+      id: 'block_content:85ce1b69-7112-4e50-b30c-565e066d37f9'
+      label: 'WHY READING AREA COMMUNITY COLLEGE'
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: content
+      weight: 3
+      uuid: b2ae0b57-f09a-41c9-bedc-dbf1d25c5559
+      context_mapping: {  }
+    5f1a22b7-b70a-4a51-b6c1-5259062b8949:
+      id: 'block_content:0b588f97-4a82-4bfb-a8f6-30a10b176620'
+      label: 'sponsor images'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: content
+      weight: 4
+      uuid: 5f1a22b7-b70a-4a51-b6c1-5259062b8949
+      context_mapping: {  }
+  id: panels_variant
+  uuid: f594cf5f-28df-4059-bcd9-c3dbd872f58d
+  label: null
+  weight: 0
+  layout: layout_onecol
+  layout_settings: {  }
+  page_title: 'racc homepage'
+  storage_type: page_manager
+  storage_id: racc_homepage-panels_variant-0
+  builder: standard
+page: racc_homepage
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

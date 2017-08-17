@@ -10,15 +10,15 @@ dependencies:
     - bartik
 id: internalnavmenu
 theme: bartik
-region: header
-weight: 0
+region: primary_menu
+weight: -8
 provider: null
 plugin: 'system_menu_block:internal-nav-menu'
 settings:
   id: 'system_menu_block:internal-nav-menu'
   label: 'internal nav menu'
   provider: system
-  label_display: visible
+  label_display: '0'
   level: 1
   depth: 0
 visibility: {  }

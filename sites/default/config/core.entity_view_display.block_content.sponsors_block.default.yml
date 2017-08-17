@@ -1,0 +1,45 @@
+uuid: 4d227e1f-1ab9-4c1d-beb7-db10140ba58a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.sponsors_block
+    - field.field.block_content.sponsors_block.field_sponsor1
+    - field.field.block_content.sponsors_block.field_sponsor2
+    - field.field.block_content.sponsors_block.field_sponsor3
+    - image.style.sponsor_normal
+  module:
+    - image
+id: block_content.sponsors_block.default
+targetEntityType: block_content
+bundle: sponsors_block
+mode: default
+content:
+  field_sponsor1:
+    weight: 0
+    label: above
+    settings:
+      image_style: sponsor_normal
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_sponsor2:
+    weight: 1
+    label: above
+    settings:
+      image_style: sponsor_normal
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_sponsor3:
+    weight: 2
+    label: above
+    settings:
+      image_style: sponsor_normal
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

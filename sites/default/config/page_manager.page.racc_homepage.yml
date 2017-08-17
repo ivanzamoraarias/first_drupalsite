@@ -1,0 +1,12 @@
+uuid: b7c221cd-9d5c-4471-80c8-22d77c5ef948
+langcode: en
+status: true
+dependencies: {  }
+id: racc_homepage
+label: 'Racc homepage'
+description: ''
+use_admin_theme: false
+path: /racc_homepage
+access_logic: and
+access_conditions: {  }
+parameters: {  }

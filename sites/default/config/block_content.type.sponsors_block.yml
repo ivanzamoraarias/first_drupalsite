@@ -1,0 +1,8 @@
+uuid: cb9a235b-042b-4f89-98fe-a10a55d7dc40
+langcode: en
+status: true
+dependencies: {  }
+id: sponsors_block
+label: 'sponsors block'
+revision: 0
+description: ''

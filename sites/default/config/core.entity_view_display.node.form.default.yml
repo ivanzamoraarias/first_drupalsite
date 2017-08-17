@@ -1,0 +1,26 @@
+uuid: 15497266-f6ba-42a3-acb7-d9ef25cc8d46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.form.body
+    - node.type.form
+  module:
+    - text
+    - user
+id: node.form.default
+targetEntityType: node
+bundle: form
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

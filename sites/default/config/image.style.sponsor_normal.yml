@@ -1,0 +1,15 @@
+uuid: c90d7d85-c49a-4af0-aabd-e35b69c056c6
+langcode: en
+status: true
+dependencies: {  }
+name: sponsor_normal
+label: 'sponsor normal'
+effects:
+  712eed95-2860-4182-ad0c-3ba6b680124b:
+    uuid: 712eed95-2860-4182-ad0c-3ba6b680124b
+    id: image_scale
+    weight: 1
+    data:
+      width: null
+      height: 150
+      upscale: false

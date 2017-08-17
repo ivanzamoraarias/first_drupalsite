@@ -1,0 +1,15 @@
+uuid: 615b7f07-1bba-4bae-93e4-1527197e3f83
+langcode: en
+status: true
+dependencies: {  }
+name: news_block_image_style
+label: 'news block image style'
+effects:
+  df5f84e0-1590-403a-ac11-a206b281aa29:
+    uuid: df5f84e0-1590-403a-ac11-a206b281aa29
+    id: image_scale
+    weight: 1
+    data:
+      width: 365
+      height: 350
+      upscale: true

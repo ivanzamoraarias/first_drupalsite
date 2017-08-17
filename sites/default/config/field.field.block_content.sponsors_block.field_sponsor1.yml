@@ -1,0 +1,38 @@
+uuid: 6befa8f6-b2c8-4da5-8722-463b36b10798
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.sponsors_block
+    - field.storage.block_content.field_sponsor1
+  module:
+    - image
+id: block_content.sponsors_block.field_sponsor1
+field_name: field_sponsor1
+entity_type: block_content
+bundle: sponsors_block
+label: sponsor1
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 09828be4-0f9e-441c-97ed-df52caa923b9
+    alt: ''
+    title: ''
+    width: 88
+    height: 150
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

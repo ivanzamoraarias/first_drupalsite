@@ -1,0 +1,29 @@
+uuid: 8984e804-8a16-4c63-9104-8940808e9eea
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.news_block_image_style
+    - image.style.news_images
+  theme:
+    - bartik
+id: news_responsive
+label: 'news responsive'
+image_style_mappings:
+  -
+    breakpoint_id: bartik.wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: news_images
+  -
+    breakpoint_id: bartik.narrow
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: news_images
+  -
+    breakpoint_id: bartik.mobile
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: news_block_image_style
+breakpoint_group: bartik
+fallback_image_style: news_images

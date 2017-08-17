@@ -1,0 +1,22 @@
+uuid: c777c414-bd6d-45ab-b8c5-567ca8769d32
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.form
+  module:
+    - text
+id: node.form.body
+field_name: body
+entity_type: node
+bundle: form
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

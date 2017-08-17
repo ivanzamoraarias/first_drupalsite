@@ -1,0 +1,8 @@
+uuid: df394964-6dca-45ac-be90-1ab00eba357e
+langcode: en
+status: true
+dependencies: {  }
+id: news_home
+label: 'news home'
+revision: 0
+description: ''

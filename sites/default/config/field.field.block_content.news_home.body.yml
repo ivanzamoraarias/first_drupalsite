@@ -1,0 +1,22 @@
+uuid: 98d5fe30-14a5-43cb-8a42-81fef6f6a8f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.news_home
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.news_home.body
+field_name: body
+entity_type: block_content
+bundle: news_home
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

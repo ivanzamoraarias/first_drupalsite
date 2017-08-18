@@ -1,0 +1,20 @@
+uuid: 14a97232-df59-4b4a-a413-1c265d4170f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.social_square.field_descripcion
+    - node.type.social_square
+  module:
+    - user
+id: node.social_square.teaser
+targetEntityType: node
+bundle: social_square
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_descripcion: true

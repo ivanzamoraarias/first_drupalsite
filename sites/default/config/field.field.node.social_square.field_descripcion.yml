@@ -1,0 +1,21 @@
+uuid: 2029f65f-629c-4eb3-a36b-e8ac4333e8b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion
+    - node.type.social_square
+  module:
+    - text
+id: node.social_square.field_descripcion
+field_name: field_descripcion
+entity_type: node
+bundle: social_square
+label: descripcion
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

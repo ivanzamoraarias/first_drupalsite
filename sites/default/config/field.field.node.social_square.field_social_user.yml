@@ -1,0 +1,19 @@
+uuid: a1e43d73-2dc3-4a07-9fc8-4c90b1daf23a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_social_user
+    - node.type.social_square
+id: node.social_square.field_social_user
+field_name: field_social_user
+entity_type: node
+bundle: social_square
+label: 'social user'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

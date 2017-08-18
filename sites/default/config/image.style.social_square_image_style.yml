@@ -1,0 +1,14 @@
+uuid: 5d7771a3-ebfa-49f1-b27c-435f1a914a7d
+langcode: en
+status: true
+dependencies: {  }
+name: social_square_image_style
+label: 'social square image style'
+effects:
+  f7ff56fc-c135-4913-a8f4-6f699841340e:
+    uuid: f7ff56fc-c135-4913-a8f4-6f699841340e
+    id: image_resize
+    weight: 2
+    data:
+      width: 400
+      height: 400

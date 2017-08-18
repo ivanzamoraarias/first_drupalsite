@@ -1,0 +1,46 @@
+uuid: b9e701ae-b6bc-4738-bc60-a5dd39e6f351
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.social_square.field_descripcion
+    - field.field.node.social_square.field_image
+    - field.field.node.social_square.field_social_user
+    - node.type.social_square
+  module:
+    - image
+    - text
+    - user
+id: node.social_square.default
+targetEntityType: node
+bundle: social_square
+mode: default
+content:
+  field_descripcion:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image:
+    weight: 103
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_social_user:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
